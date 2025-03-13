@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>input</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="200" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>ctrl</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>2</int>
+        </entry>
+      </elementAttributes>
+      <pos x="240" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="200" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>output</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4_bit_gpr.dig</elementName>
+      <elementAttributes/>
+      <pos x="540" y="200"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="520" y="240"/>
+      <p2 x="540" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="240"/>
+      <p2 x="280" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="200"/>
+      <p2 x="540" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="220"/>
+      <p2 x="960" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="220"/>
+      <p2 x="540" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="380"/>
+      <p2 x="520" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="60"/>
+      <p2 x="460" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="240"/>
+      <p2 x="520" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="200"/>
+      <p2 x="280" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="60"/>
+      <p2 x="460" y="220"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
